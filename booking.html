@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book IT Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Book Support</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="contact.html">Contact</a>
+    <a href="booking.html">Booking</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Submit Your Issue</h2>
+
+    <form action="https://formsubmit.co/your-email@example.com" method="POST">
+
+      <!-- Disable captcha (optional) -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- Redirect after submit -->
+      <input type="hidden" name="_next" value="thankyou.html">
+
+      <label>Name:</label><br>
+      <input type="text" name="name" required style="width:100%; padding:10px;"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required style="width:100%; padding:10px;"><br><br>
+
+      <label>Phone Number:</label><br>
+      <input type="text" name="phone" required style="width:100%; padding:10px;"><br><br>
+
+      <label>Describe Your Issue:</label><br>
+      <textarea name="issue" rows="5" required style="width:100%; padding:10px;"></textarea><br><br>
+
+      <button type="submit">Submit Request</button>
+
+    </form>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 COMMITMENTS - DIGITAL</p>
+</footer>
+
+</body>
+</html>
